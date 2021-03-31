@@ -1,7 +1,7 @@
 /* ##################### universal style ################ */
 
 
-html{
+body{
     font-family: 'Montserrat', sans-serif;
     font-size: 62.5%;
     box-sizing: border-box;
@@ -38,7 +38,21 @@ p{
     margin: auto;
     /* border: 2px solid #000; */
 }
+.btn{
+    display: inline-block;
+    padding: 1em 2.5em;
+    text-decoration: none;
+    border-radius: 50rem;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-weight: 500;  
+    outline: none;
+}
 
+.btn-main{
+    color: #fff;
+    background: green;
+}
 
 /* ############### navbar style ############# */
 
@@ -94,10 +108,106 @@ p{
     color: rgb(23, 189, 23)
 }
 
-section .showcase{
+.showcase{
     height: 50vh;
-    background: url("./img/header-image2.jpg");
+    background: url("../img/header-image2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-bottom: 3rem;
 }
+
+.show-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    height: 100%;
+    font-size: 1.6rem;
+  
+}
+.maintitle{
+    text-transform: uppercase;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    font-size: 1.6rem
+}
+.show-container p{
+    margin-top: 0%;
+    font-size: 1rem;
+    font-weight 500; 
+}
+
+
+    
+#about{
+    padding: 50px 0px ;
+    background: #f5f5f7 ;
+}
+.aboutcontainer{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#about p{
+    font-size: 1.6rem;
+    color: #555;
+
+}
+#about .smallp{
+    font-size: 1.6rem;
+    color: #666;
+    font-weight: 600;
+
+}
+#about h2{
+    font-size: 3.2rem;
+}
+
+.abouttext{
+    flex: 1 1 400px;
+    padding: 30px;
+    margin: auto;
+}
+.aboutimage img{
+    display: block;
+    height: 100%;
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    object-position: right;
+
+}
+#food h2{
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(37, 31, 31);
+ 
+}
+#food .foodcon{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    position: relative;
+    
+    
+}
+#food img{
+    width: 350px;
+    height: 350px;
+    
+}
+#food .img-content{
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    /* position: absolute;
+    top: 70%; */
+    
+}
+/* #food a{
+    text-align: center;
+} */
